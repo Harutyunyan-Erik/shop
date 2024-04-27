@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  max-height: 70vh;
+}
+.productDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+  margin: auto;
+}
+.productDetails img {
+  width: 100%;
+  height: auto;
+}
+.productDetails .divText {
+  background-color: #ececec;
+  display: grid;
+}
+.productDetails .divText h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.productDetails .divText h2 {
+  font-size: 32px;
+  color: green;
+  margin-top: 10px;
+  margin: 5px 0;
+}

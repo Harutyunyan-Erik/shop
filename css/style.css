@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+.product_item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+.product_item a {
+  text-decoration: none;
+  color: inherit;
+}
+.product_item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.product_item:hover {
+  background-color: #f9f9f9;
+}
