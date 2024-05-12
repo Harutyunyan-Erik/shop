@@ -7,9 +7,39 @@
     <link rel="stylesheet" href="./css/productDetail.css">
 </head>
 <body>
-    <section id="productDetail" class="productDetails">
+    <header class="headerClass">
+        <a href="./index.html">Online Shop</a>
+    </header>
 
+    <section id="productDetail" class="productDetails">
+        <div id="img_container"></div>
     </section>
+
+    <footer>
+        <div class="footer_message">
+            <h2>ՈՒՂԱՐԿԵՔ ՄԵԶ ՀԱՂՈՐԴԱԳՐՈՒԹՅՈՒՆ</h2>
+            <hr>
+            <div>
+                <input type="text" placeholder="Անուն Ազգանուն">
+                <input type="email" placeholder="Էլ։ Հասցե">
+            </div>
+            <textarea placeholder="Ձեր Հաղորդագրությունը" id="message" cols="30" rows="10"></textarea>
+            <p>
+                <input type="checkbox" class="checkbox">
+                <a href="">Ես համաձայն եմ անձնական տվյալների մշակման պայմաններին</a>
+            </p>
+            <div class="footer_buttons">
+                <button>ՈՒՂԱՐԿԵԼ</button>
+                <button>ՄԱՔՐԵԼ</button>
+            </div>
+        </div>
+
+        <div class="footer_info">
+            
+            <a href="mailto:INFO@DEMO.COM">INFO@DEMO.COM</a>
+            <a href="tel:+374 00 00 00">+374 00 00 00</a>
+        </div>
+    </footer>
 
     <script src="./js/productDetail.js" type="module"></script>
 </body>
